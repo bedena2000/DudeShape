@@ -14,3 +14,5 @@ const swiper = new Swiper('.swiper', {
 
   
 });
+
+const burgerBtn = document.querySelector(".header-menu-search-burger");
