@@ -47,3 +47,8 @@ const allAsideLinks = Array.from(document.querySelectorAll(".aside-menu-link"));
     closeAside();
   });
 });
+
+ScrollReveal().reveal(".header");
+ScrollReveal().reveal(".companies", {delay: 500});
+ScrollReveal().reveal(".main", {delay: 500});
+AOS.init({once: true});
