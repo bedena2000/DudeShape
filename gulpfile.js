@@ -10,8 +10,10 @@ function scssTask() {
            cascade: false
          }))
          .pipe(sass.sync({outputStyle: 'expanded'}).on('error', sass.logError))
-         .pipe(dest("dist/styles/style.css"));
+         .pipe(dest("dist/styles/style.css"))
+         .pipe(browserSync.stream());
 };
+
 
 function watchFiles() {
   watch("src/styles/style.scss", scssTask);

@@ -23,12 +23,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.49.7"
   },
   "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
     "postcss": "^8.4.12"
   }
